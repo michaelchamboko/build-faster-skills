@@ -1,6 +1,6 @@
 # Skills
 
-A collection of [agent skills](https://code.claude.com/docs/en/skills) for Claude Code. Each skill is a folder containing a `SKILL.md` with frontmatter (name, description) and instructions that Claude loads on demand when the task matches.
+A collection of [agent skills](https://agentskills.io) for Codex and compatible coding agents. Each skill is a folder containing a `SKILL.md` with frontmatter (name, description) and instructions that Claude loads on demand when the task matches.
 
 [![skills.sh](https://skills.sh/b/michaelshimeles/skills)](https://skills.sh/michaelshimeles/skills)
 
@@ -86,10 +86,10 @@ Use it when:
 Use `npx skills` to install skills to most coding agents:
 
 ```bash
-npx skills add michaelshimeles/skills
+npx skills add michaelchamboko/build-faster-skills
 ```
 
-Claude Code picks up the skill automatically and invokes it when a task matches the skill's description. You can also invoke one explicitly with `/code-structure` or `/evidence-driven-testing`.
+Codex and other supported agents can load installed skills when their descriptions match a task. You can also request one by name, such as `/code-structure`, `/evidence-driven-testing`, or `/code-review`.
 
 ## Adding a new skill
 
